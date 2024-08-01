@@ -1,0 +1,24 @@
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.is-invalid + .invalid-feedback {
+    display: block;
+}
+
+.password-container {
+    position: relative;
+}
+.password-container input {
+    padding-right: 40px;
+}
+.password-container .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #495057;
+    padding-top: 30px;
+}
+
